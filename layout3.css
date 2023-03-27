@@ -1,40 +1,98 @@
-header{
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
     text-align: center;
     /* font-size: 11px; */
-    
+    margin: 30px 0;
+
 }
-section{
+
+section {
+    margin-bottom: 30px;
+    /* border: 2px solid; */
     display: flex;
 }
-img{
-    height: 200px;
-    width: 250px;
-}
-.view{
+
+.view {
     text-align: center;
-    margin: 30px;
+    margin: 3rem;
 }
-.view a{
+
+.view a {
     border-radius: 10px;
     text-align: center;
     padding: 20px 20px 18px 15px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+    border-right: 2px solid;
     background-color: rgb(54, 198, 54);
 }
-.FiveBox{
-    padding: 10px;
+
+.FiveBox {
+    width: 18%;
     border-radius: 10px;
     border: 2px solid brown;
-    margin: 10px;
+    margin: 20px;
 }
-.FiveBox a{
+
+.FiveBox a {
     color: black;
     text-decoration: none;
 }
 
-.FiveBox p,a{
+.FiveBox p,
+a {
+    margin-bottom: 20px;
     font-size: 20px;
+    padding: 10px;
+}
 
+.FiveBox h3 {
+    text-align: center;
+}
+
+.FiveBox img {
+    width: 100%;
+}
+.people {
+    margin: 30px 0;
+    justify-content: space-between;
+    display: flex;
+    background-image: url(scholarship-bg.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.hadding a {
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+.hadding {
+    padding: 43px;
+    margin-right: 43px;
+}
+
+.hadding h1 {
+    /* margin: 20px 0px; */
+    font-size: 2.2rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hadding p {
+    /* margin: 20px 0px; */
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hadding h1,p{
+    margin: 2rem 0;
 }
